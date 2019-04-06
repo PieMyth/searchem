@@ -71,5 +71,5 @@ fn add_test() {
     y.add(1, 2, 3, 'a');
     assert_ne!(x,y);
     x.add(1, 2, 3, 'a');
-    assert_eq!(x,y);c
+    assert_eq!(x,y);
 }
