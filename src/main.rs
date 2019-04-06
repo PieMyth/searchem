@@ -1,6 +1,7 @@
-pub mod contact;
+pub mod list;
 
 fn main() {
-    let _c: contact::Contact = contact::Contact::new();
-    println!("Hello World")
+    let c: list::List = list::List::new();
+    println!("{:?}", c);
+    println!("Hello World");
 }
